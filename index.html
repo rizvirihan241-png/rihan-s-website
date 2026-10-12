@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rihan's portfolio — BCA graduate, MCA student, web development and digital content enthusiast.">
+  <title>Rihan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Rihan home">Rihan<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="button button-small nav-resume" href="#contact">Let's Connect <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1200 360" preserveAspectRatio="none">
+          <path d="M-20 250 C180 110 270 340 470 230 S760 90 930 180 S1100 250 1230 95" />
+          <path d="M-20 280 C180 140 280 360 480 260 S770 120 940 210 S1110 280 1230 125" />
+          <path d="M-20 215 C160 70 290 300 480 200 S770 60 940 150 S1110 220 1230 65" />
+        </svg>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow light-eyebrow"><span class="status-dot"></span> MCA Student · BCA Graduate</p>
+          <p class="intro">Hello, I'm</p>
+          <h1>Rihan<span>.</span></h1>
+          <h2>Turning ideas into <span class="gradient-text">digital reality.</span></h2>
+          <p class="hero-description">I’m a technology enthusiast interested in web development, digital creativity, and practical solutions. I enjoy learning new tools and turning ideas into useful projects.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">Explore My Work <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Contact Me</a>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/rihan-khan-83813a300/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a href="mailto:rihankhan005577@gmail.com" aria-label="Email">@</a>
+            <a href="#projects" aria-label="Projects">⌘</a>
+          </div>
+        </div>
+        <aside class="profile-card" aria-label="Profile summary">
+          <div class="profile-card-top">
+            <div class="monogram" aria-hidden="true">R<span>.</span></div>
+            <div><p class="muted-label">PORTFOLIO / 2026</p><h3>Rihan Khan</h3><p class="card-subtitle">Learner. Creator. Problem solver.</p></div>
+          </div>
+          <div class="profile-divider"></div>
+          <div class="profile-detail"><span class="detail-icon">⌘</span><div><small>Currently pursuing</small><strong>MCA · AKTU</strong><span>Neelkanth College, Meerut</span></div></div>
+          <div class="profile-detail"><span class="detail-icon">✓</span><div><small>Graduated in</small><strong>Bachelor of Computer Applications</strong><span>Vinayak Vidyapeeth College</span></div></div>
+          <div class="profile-bottom"><span class="availability-dot"></span> Open to learning and opportunities</div>
+        </aside>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="section-copy">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2 class="section-title">Curious mind.<br><span class="text-blue">Creative approach.</span></h2>
+          <p>I'm Rihan, a BCA graduate from Vinayak Vidyapeeth College and currently pursuing MCA at Neelkanth College, Meerut (AKTU).</p>
+          <p>My interests include web development, programming, e-commerce operations, video editing, UGC ads, and AI video creation. I value teamwork, clear communication, and continuous improvement.</p>
+          <p class="handwritten">Let's build something meaningful together <span>↗</span></p>
+        </div>
+        <div class="about-highlight">
+          <div class="highlight-orbit orbit-a"></div><div class="highlight-orbit orbit-b"></div>
+          <div class="bulb-icon" aria-hidden="true">✳</div>
+          <p class="highlight-kicker">MY MINDSET</p>
+          <h3>Learn.<br>Build.<br><span>Improve.</span></h3>
+          <p>Every project is a chance to turn knowledge into practice.</p>
+          <div class="highlight-tags"><span>Curiosity</span><span>Creativity</span><span>Consistency</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / WHAT I KNOW</p><h2 class="section-title">Skills & <span class="text-blue">toolkit</span></h2></div>
+          <p class="section-note">A growing mix of technical skills, digital tools, and creative work.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-symbol blue">C</span><h3>C Language</h3><p>Programming fundamentals</p></article>
+          <article class="skill-card"><span class="skill-symbol yellow">Py</span><h3>Python</h3><p>Programming and logic</p></article>
+          <article class="skill-card"><span class="skill-symbol orange">5</span><h3>HTML</h3><p>Web page structure</p></article>
+          <article class="skill-card"><span class="skill-symbol sky">3</span><h3>CSS</h3><p>Layout and styling</p></article>
+          <article class="skill-card"><span class="skill-symbol violet">文</span><h3>English Communication</h3><p>Communication practice</p></article>
+          <article class="skill-card"><span class="skill-symbol red">▦</span><h3>MS Office</h3><p>Word, Excel, PowerPoint</p></article>
+          <article class="skill-card"><span class="skill-symbol green">▤</span><h3>Google Sheets</h3><p>Spreadsheets and data</p></article>
+          <article class="skill-card"><span class="skill-symbol blue">◎</span><h3>Teamwork</h3><p>Collaboration and support</p></article>
+          <article class="skill-card"><span class="skill-symbol pink">▣</span><h3>E-commerce Seller Panel</h3><p>Listing and panel workflows</p></article>
+          <article class="skill-card"><span class="skill-symbol violet">▶</span><h3>Video Editing</h3><p>Short-form content</p></article>
+          <article class="skill-card"><span class="skill-symbol orange">↗</span><h3>UGC Ads</h3><p>Creative ad content</p></article>
+          <article class="skill-card"><span class="skill-symbol sky">✧</span><h3>AI Videos</h3><p>AI-assisted video creation</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container two-column education-layout">
+        <div>
+          <p class="eyebrow">03 / EDUCATION</p>
+          <h2 class="section-title">My academic <span class="text-blue">journey</span></h2>
+          <p class="section-note">Building a stronger foundation in computing and technology.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-marker"></span><div class="timeline-card"><div class="timeline-meta"><span class="pill pill-blue">Currently pursuing</span><span class="date">Present</span></div><h3>Master of Computer Applications (MCA)</h3><p>Neelkanth College, Meerut · AKTU</p></div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker"></span><div class="timeline-card"><div class="timeline-meta"><span class="pill pill-green">Completed</span><span class="date">Completed</span></div><h3>Bachelor of Computer Applications (BCA)</h3><p>Vinayak Vidyapeeth College</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 / SELECTED WORK</p><h2 class="section-title">Projects & <span class="text-blue">experiments</span></h2></div>
+          <p class="section-note">A selection of work and ideas to keep developing.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art art-store"><div class="browser-bar"><i></i><i></i><i></i><span>shop.example</span></div><div class="store-preview"><div class="preview-nav"></div><div class="preview-banner"><b>Discover<br>something new.</b><span></span></div><div class="preview-products"><i></i><i></i><i></i></div></div><span class="art-label">01 / FRONTEND</span></div>
+            <div class="project-info"><div class="project-title-row"><h3>Amazon-Inspired Replica</h3><span class="project-arrow">↗</span></div><p>A frontend practice project recreating an e-commerce layout using HTML and CSS.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive design</span></div><p class="project-status">Personal practice project · Add your live link when ready</p></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-cafe"><span class="cafe-steam">〰</span><div class="coffee-cup"><span></span></div><div class="cafe-title">CAFÉ<br><small>MANAGEMENT</small></div><span class="art-label">02 / PYTHON</span></div>
+            <div class="project-info"><div class="project-title-row"><h3>Python Cafe Management</h3><span class="project-arrow">↗</span></div><p>A console-based project concept for menu selection, billing, GST, and discount calculations.</p><div class="tag-list"><span>Python</span><span>Loops</span><span>Billing logic</span></div><p class="project-status">Personal project · Polish and test before publishing</p></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-portfolio"><div class="mini-window"><div class="mini-sidebar"></div><div class="mini-content"><span></span><span></span><span></span><div></div></div></div><span class="art-label">03 / WEB DESIGN</span></div>
+            <div class="project-info"><div class="project-title-row"><h3>Personal Portfolio Website</h3><span class="project-arrow">↗</span></div><p>This portfolio presents your education, skills, projects, and contact information in one place.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><p class="project-status">Current portfolio · Keep improving as you learn</p></div>
+          </article>
+        </div>
+        <div class="suggestion-note"><span>✦</span><p><strong>Future project ideas:</strong> a Python expense tracker, a responsive product landing page, or a simple JavaScript to-do app. These are suggestions—not completed projects.</p></div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">05 / WHAT I CAN EXPLORE</p><h2 class="section-title">Creative & digital <span class="text-blue">interests</span></h2></div>
+          <p class="section-note">Areas aligned with my current skills and learning journey.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card"><span class="service-icon">⌘</span><h3>Web Development</h3><p>Building and styling responsive pages with HTML and CSS while learning more.</p></article>
+          <article class="service-card"><span class="service-icon pink-icon">▶</span><h3>Video Editing</h3><p>Editing short videos for social platforms and digital content.</p></article>
+          <article class="service-card"><span class="service-icon purple-icon">✧</span><h3>UGC Ad Concepts</h3><p>Exploring creator-style ad formats and product storytelling.</p></article>
+          <article class="service-card"><span class="service-icon green-icon">✳</span><h3>AI Video Creation</h3><p>Experimenting with AI tools for visual content and video ideas.</p></article>
+          <article class="service-card"><span class="service-icon orange-icon">▣</span><h3>E-commerce Support</h3><p>Working with seller-panel workflows and product listing tasks.</p></article>
+          <article class="service-card"><span class="service-icon blue-icon">▤</span><h3>Office & Sheets</h3><p>Using productivity tools such as Word, Excel, PowerPoint, and Google Sheets.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow light-eyebrow">06 / GET IN TOUCH</p>
+          <h2 class="section-title">Have an idea?<br><span class="gradient-text">Let's talk.</span></h2>
+          <p>Have a question, opportunity, or project idea? Feel free to reach out.</p>
+          <a class="contact-detail" href="mailto:rihankhan005577@gmail.com"><span>✉</span><div><small>Email me</small><strong>rihankhan005577@gmail.com</strong></div></a>
+          <a class="contact-detail" href="tel:+919058317141"><span>☎</span><div><small>Call me</small><strong>+91 90583 17141</strong></div></a>
+          <a class="contact-detail" href="https://www.linkedin.com/in/rihan-khan-83813a300/" target="_blank" rel="noopener noreferrer"><span>in</span><div><small>Connect on LinkedIn</small><strong>Rihan Khan <span aria-hidden="true">↗</span></strong></div></a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send a message</h3>
+          <p class="form-intro">Your email app will open with your message ready to send.</p>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Your email</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What is this about?" required>
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          <button class="button form-button" type="submit">Prepare Email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formNote" aria-live="polite">This form uses your device's default email app. It does not send messages directly from the website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">Rihan<span>.</span></a>
+      <p>Designed with curiosity. Built for what's next.</p>
+      <p class="copyright">© <span id="year">2026</span> Rihan Khan. All rights reserved.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
